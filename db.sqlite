@@ -1,0 +1,12 @@
+[Monday 11:00] Oles Dobosevych
+    CREATE TABLE homes (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    url TEXT NOT NULL,
+    price INTEGER,
+    beds DOUBLE,
+    bathes DOUBLE,
+    garages DOUBLE
+);
+
+INSERT INTO homes(url, price, beds, bathes, garages) VALUES ('localhost', 0, 0, 0, 0);
+SELECT * FROM homes WHERE url='localhost';
